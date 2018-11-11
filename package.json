@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-wing-kin",
   "version": "0.0.1",
-  "description": "个人用的vue-cli 3.0 项目初始化插件",
+  "description": "vue-cli 3 plugin 个人用的vue-cli 3.0 项目初始化插件",
   "main": "index.js",
   "scripts": {
   },
