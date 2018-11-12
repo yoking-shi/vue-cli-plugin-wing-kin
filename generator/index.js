@@ -1,6 +1,10 @@
 module.exports = (api, options) => {
   console.log(api, options)
 
+  if (options.mobile) {
+    require('./public')(api, options)
+  }
+
   if (options.common) {
 
   }
