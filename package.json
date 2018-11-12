@@ -10,7 +10,7 @@
     "url": "git+ssh://git@github.com/yoking-shi/vue-cli-plugin-wing-kin.git"
   },
   "author": "施永坚@1308543433@qq.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yoking-shi/vue-cli-plugin-wing-kin/issues"
   },
