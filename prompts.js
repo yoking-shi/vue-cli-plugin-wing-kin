@@ -1,22 +1,7 @@
 module.exports = [
   {
-    name: 'mobile',
-    message: '添加移动端meta设置',
-    type: 'confirm'
-  },
-  {
-    name: 'common',
-    message: '添加公用类库',
-    type: 'confirm'
-  },
-  {
     name: 'components',
     message: '添加组件文件夹',
-    type: 'confirm'
-  },
-  {
-    name: 'i18n',
-    message: '添加i18n国际化',
     type: 'confirm'
   },
   {
@@ -30,13 +15,13 @@ module.exports = [
     type: 'confirm'
   },
   {
-    name: 'axios',
-    message: '添加axios',
+    name: 'axios_with_api',
+    message: '添加axios同时添加API列表文件夹',
     type: 'confirm'
   },
   {
-    name: 'api',
-    message: '添加API列表文件夹',
+    name: 'i18n',
+    message: '添加i18n国际化',
     type: 'confirm'
   }
 ]

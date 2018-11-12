@@ -1,19 +1,11 @@
 module.exports = (api, options) => {
   console.log(api, options)
 
-  if (options.mobile) {
-    require('./public')(api, options)
+  // 设置一些基础配置
+  require('./common')(api, options)
+
+  if (options.components) {
   }
-
-  if (options.common) {
-
-  }
-
-  if (options.api) {
-
-  }
-
-  if (options.components) {}
 
   if (options.i18n) {
     api.extendPackage({
@@ -39,7 +31,7 @@ module.exports = (api, options) => {
     })
   }
 
-  if (options.axios) {
+  if (options.axios_with_api) {
     api.extendPackage({
       dependencies: {
         'axios': '^0.18.0'
