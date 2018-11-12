@@ -1,3 +1,5 @@
 module.exports = (api, options) => {
-  api.render('./template')
+  api.render({
+    [`./public/index.html`]: './template/index.html'
+  })
 }
