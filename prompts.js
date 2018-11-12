@@ -1,5 +1,10 @@
 module.exports = [
   {
+    name: 'mobile',
+    message: '添加移动端meta设置',
+    type: 'confirm'
+  },
+  {
     name: 'common',
     message: '添加公用类库',
     type: 'confirm'
