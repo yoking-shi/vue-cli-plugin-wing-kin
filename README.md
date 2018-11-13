@@ -14,12 +14,20 @@ vue ui
 - 然后创建项目
 - 界面出来之后，到插件界面，点击添加插件，输入wing-kin搜索到插件，然后安装
 
+![avatar](./images/1.jpg)
+![avatar](./images/2.jpg)
+![avatar](./images/3.jpg)
+![avatar](./images/4.png)
+![avatar](./images/5.png)
+![avatar](./images/6.jpg)
+![avatar](./images/7.png)
 
 ### 3. 开启服务
 ```shell
 yarn serve
 ```
 或者到任务界面开启serve
+![avatar](./images/8.gif)
 
 ## 插件内容介绍
 插件自动加入的文件目录
